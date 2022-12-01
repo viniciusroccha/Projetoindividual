@@ -1,0 +1,185 @@
+body{
+
+    background-color: rgb(179, 148, 148);
+    
+    }
+    
+    H1{
+    
+    Text-align: center;
+    
+    Color:rgb(255, 255, 255);
+    
+    Font-family: ‘ZCOOL KuaiLe’, cursive;
+    
+    }
+    
+    Label{
+    
+    Color:rgb(255, 255, 255);
+    
+    Text-align:justify;
+    
+    Font-weight: bold;
+    
+    Letter-spacing: 1px;
+    
+    Font-size: 16px;
+    
+    }
+    
+    Select {
+    
+    Width: 100%;
+    
+    Padding: 16px 20px;
+    
+    Border: none;
+    
+    Border-radius: 4px;
+    
+    Background-color: #21801e;
+    
+    Color:white;
+    
+    Font-size: 15px;
+    
+    Font-weight: bold;
+    
+    }
+    
+    .incremento{
+    
+    Width: 100vw;
+    
+    Height: 15vh;
+    
+    Display: flex;
+    
+    Flex-direction: column;
+    
+    Justify-content: center;
+    
+    Align-items: center;
+    
+    Text-align: center;
+    
+    Color:white
+    
+    }
+    
+    .bttns{
+    
+    Width: 100vw;
+    
+    Height: 30vh;
+    
+    Display: flex;
+    
+    Flex-direction: column;
+    
+    Justify-content: center;
+    
+    Align-items: center;
+    
+    }
+    
+    Input[type=text]:focus {
+    
+    Background-color: rgb(108, 185, 73);
+    
+    Border: 3px solid #555;
+    
+    }
+    
+    Input[type=text] {
+    
+    Background-color: #21801e;
+    
+    Color: white;
+    
+    Width: 100%;
+    
+    Padding: 42px 70px;
+    
+    Margin: 8px 0;
+    
+    Box-sizing: border-box;
+    
+    Border: 1px solid #ccc;
+    
+    Border-radius: 5px;
+    
+    Font-size: 20px;
+    
+    }
+    
+    Input[type=radio]{
+    
+    Padding: 46px 80px;
+    
+    }
+    
+    Button {
+    
+    Border-radius: 12px;
+    
+    Background-color: white;
+    
+    Color: black;
+    
+    Border: 2px solid #4CAF50;
+    
+    Transition-duration: 2.0s;
+    
+    }
+    
+    Button:hover {
+    
+    Background-color: #4CAF50;
+    
+    Color: white;
+    
+    Box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+    }
+    
+    Textarea{
+    
+    Width:100%;
+    
+    Background-color:#21801e;
+    
+    Box-sizing: border-box;
+    
+    Box-shadow: 1px 1px 1px #999;
+    
+    Border-radius: 5px;
+    
+    Border: 1px solid #ccc;
+    
+    Padding: 42px 70px;
+    
+    Font-size: 20px;
+    
+    Color:white
+    
+    }
+    
+    Textarea[type=text]:focus {
+    
+    Background-color: rgb(108, 185, 73);
+    
+    Border: 3px solid #555;
+    
+    }
+    
+    Hr{
+    
+    Height: 12px;
+    
+    Border: 0;
+    
+    Box-shadow: inset 0 12px 12px -12px rgb(255, 255, 255);
+    
+    }
